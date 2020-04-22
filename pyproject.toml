@@ -6,6 +6,7 @@ authors = ["Joben R <joben.rara@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
+click = "^7.1.1"
 
 [tool.poetry.dev-dependencies]
 
