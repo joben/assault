@@ -4,11 +4,37 @@ version = "0.1.0"
 description = "load testing cli"
 authors = ["Joben R <joben.rara@gmail.com>"]
 
+# New attributes
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/joben"
+repository = "https://github.com/joben/"
+keywords = ["cli", "load test", "asyncio"]
+classifiers = [
+    "Environment :: Console",
+    "Framework :: Click",
+    "Operating System :: OS Independent",
+    "Topic :: Software Development :: Documentation",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Software Development :: Quality Assurance",
+]
+include = [
+    "LICENSE",
+]
+
 [tool.poetry.dependencies]
 python = "^3.8"
 click = "^7.1.1"
+requests = "^2.23.0"
 
 [tool.poetry.dev-dependencies]
+flake8 = "^3.7.9"
+autopep8 = "^1.5.2"
+
+# New scripts
+twine = "^3.1.1"
+[tool.poetry.scripts]
+assault = "assault.cli:cli"
 
 [build-system]
 requires = ["poetry>=0.12"]
