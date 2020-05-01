@@ -67,3 +67,4 @@ $ pipenv shell
 ```
 
 [1]: https://docs.pipenv.org/en/latest/
+Exercise from Programming Use Cases in Python from LinuxAcademy
